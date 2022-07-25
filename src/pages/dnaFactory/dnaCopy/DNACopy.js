@@ -6,7 +6,6 @@ import ReplicaBox from './ReplicaBox';
 import img from '../../../styles/assets/png/brainies.png';
 
 const DNACopy = () => {
-
     const [DNAdummyData, setDNADummyData] = useState([
       {hash: 0x0000, feature: 'none', img: img, abrasionRate: 0, isClicked: false},
       {hash: 0x0001, feature: 'none', img: img, abrasionRate: 10, isClicked: false},
